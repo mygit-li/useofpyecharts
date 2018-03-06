@@ -3,6 +3,7 @@ from django.db import connection
 from django.http import HttpResponse
 from django.template import loader
 from pyecharts import Bar, Geo
+from celery_test.tasks import celery_send_email
 
 
 def exc_sql(sql):
@@ -72,3 +73,9 @@ def guo_report(request):
             geo_normal_color="#006edd", geo_emphasis_color="#0000ff")
     data = {'data': geo.render_embed()}
     return render(request, 'guo_report.html', data)
+
+
+def add_task_to_celery(request):
+    celery_send_email.delay(u'邮件主题', 'test_mail_message', 'lijianwei@mail.haoyisheng.com',
+                            ['lijianwei@mail.haoyisheng.com'])
+    return HttpResponse('hello world')

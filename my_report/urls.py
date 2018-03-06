@@ -20,6 +20,7 @@ from month_report import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('index/', views.index, name='index'),
-    path('month/', views.m_report, name='index'),
-    path('guo/', views.guo_report, name='index'),
+    path('month/', views.m_report, name='month'),
+    path('guo/', views.guo_report, name='guo'),
+    path('send_email/', views.add_task_to_celery, name='send_email'),
 ]

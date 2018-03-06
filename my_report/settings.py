@@ -25,7 +25,8 @@ SECRET_KEY = 'pdwxf+n#l*d=#av2r)-7(d07vb162im8v28+kb5_lufg5i^i$0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.5.94', ]
+# ALLOWED_HOSTS = ['192.168.5.94', ]
+ALLOWED_HOSTS = ["*", ]
 
 
 # Application definition
@@ -38,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'my_report',
+    'celery_test',
 ]
 
 MIDDLEWARE = [
@@ -134,3 +136,19 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
+
+# Celery settings
+CELERY_BROKER_URL = 'redis://localhost:6379'
+#: Only add pickle to this list if your broker is secured
+CELERY_ACCEPT_CONTENT = ['json']
+CELERY_RESULT_BACKEND = 'redis://localhost:6379'
+CELERY_TASK_SERIALIZER = 'json'
+CELERY_ENABLE_UTC = True
+CELERY_TIMEZONE = 'Asia/Shanghai'
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = "smtp.mail.haoyisheng.com"
+EMAIL_HOST_PASSWORD = 'ljw1987'
+DEFAULT_FROM_EMAIL = EMAIL_HOST_USER = "lijianwei@mail.haoyisheng.com"
+EMAIL_PORT = 25
+EMAIL_USE_TLS = True
