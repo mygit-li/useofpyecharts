@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe028f77-2ec0-499a-a070-ab28023ff960" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/celery_test/tasks.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_report/celery.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/month_report/models.py" afterPath="$PROJECT_DIR$/month_report/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/month_report/views.py" afterPath="$PROJECT_DIR$/month_report/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my_report/__init__.py" afterPath="$PROJECT_DIR$/my_report/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my_report/settings.py" afterPath="$PROJECT_DIR$/my_report/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my_report/urls.py" afterPath="$PROJECT_DIR$/my_report/urls.py" />
     </list>
     <ignored path="my_report.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,8 +33,8 @@
       <file leaf-file-name="tasks.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/celery_test/tasks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="13" column="62" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="62" />
+            <state relative-caret-position="259">
+              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
               <folding>
                 <element signature="e#0#56#0" expanded="true" />
               </folding>
@@ -47,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_report/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+            <state relative-caret-position="285">
+              <caret line="97" column="1" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -60,8 +55,8 @@
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_report/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="232">
+              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
               <folding>
                 <element signature="e#0#56#0" expanded="true" />
               </folding>
@@ -79,15 +74,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/month_report/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="80" column="38" selection-start-line="80" selection-start-column="38" selection-end-line="80" selection-end-column="38" />
+            <state relative-caret-position="198">
+              <caret line="78" column="76" selection-start-line="78" selection-start-column="76" selection-end-line="78" selection-end-column="76" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
-                <marker date="1520324495795" expanded="true" signature="575:619" ph="select colum... user_tab_columns" />
-                <marker date="1520324495795" expanded="true" signature="1903:1994" ph="select city,... REPORT_REG" />
+                <marker date="1520326695163" expanded="true" signature="575:619" ph="select colum... user_tab_columns" />
+                <marker date="1520326695163" expanded="true" signature="1903:1994" ph="select city,... REPORT_REG" />
               </folding>
             </state>
           </provider>
@@ -108,8 +103,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_report/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="25" selection-end-column="1" />
+            <state relative-caret-position="232">
+              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
               <folding>
                 <element signature="e#633#665#0" expanded="true" />
               </folding>
@@ -133,16 +128,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/month_report/models.py" />
         <option value="$PROJECT_DIR$/templates/ddd.html" />
         <option value="$PROJECT_DIR$/templates/m_report.html" />
         <option value="$PROJECT_DIR$/celery_test/task.py" />
-        <option value="$PROJECT_DIR$/my_report/__init__.py" />
         <option value="$PROJECT_DIR$/my_report/urls.py" />
         <option value="$PROJECT_DIR$/my_report/celery.py" />
-        <option value="$PROJECT_DIR$/my_report/settings.py" />
         <option value="$PROJECT_DIR$/celery_test/tasks.py" />
         <option value="$PROJECT_DIR$/month_report/views.py" />
+        <option value="$PROJECT_DIR$/month_report/models.py" />
+        <option value="$PROJECT_DIR$/my_report/settings.py" />
+        <option value="$PROJECT_DIR$/my_report/__init__.py" />
       </list>
     </option>
   </component>
@@ -200,6 +195,34 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="my_report" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_report" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_report" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_report" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_report" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_report" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="month_report" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -572,8 +595,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
-            <marker date="1520324495795" expanded="true" signature="575:619" ph="select colum... user_tab_columns" />
-            <marker date="1520324495795" expanded="true" signature="1903:1994" ph="select city,... REPORT_REG" />
+            <marker date="1520326695163" expanded="true" signature="575:619" ph="select colum... user_tab_columns" />
+            <marker date="1520326695163" expanded="true" signature="1903:1994" ph="select city,... REPORT_REG" />
           </folding>
         </state>
       </provider>
@@ -585,13 +608,6 @@
           <folding>
             <element signature="e#633#665#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/month_report/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="20" column="57" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -625,36 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_report/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_report/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="25" selection-end-column="1" />
-          <folding>
-            <element signature="e#633#665#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/celery_test/tasks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="13" column="62" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/guo_report.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -673,23 +659,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/month_report/views.py">
+    <entry file="file://$PROJECT_DIR$/celery_test/tasks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="80" column="38" selection-start-line="80" selection-start-column="38" selection-end-line="80" selection-end-column="38" />
+        <state relative-caret-position="259">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1520324495795" expanded="true" signature="575:619" ph="select colum... user_tab_columns" />
-            <marker date="1520324495795" expanded="true" signature="1903:1994" ph="select city,... REPORT_REG" />
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/celery_test/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/month_report/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/month_report/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="20" column="59" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_report/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+          <folding>
+            <element signature="e#633#665#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_report/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my_report/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        <state relative-caret-position="285">
+          <caret line="97" column="1" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/month_report/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="78" column="76" selection-start-line="78" selection-start-column="76" selection-end-line="78" selection-end-column="76" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <marker date="1520326695163" expanded="true" signature="575:619" ph="select colum... user_tab_columns" />
+            <marker date="1520326695163" expanded="true" signature="1903:1994" ph="select city,... REPORT_REG" />
+          </folding>
         </state>
       </provider>
     </entry>

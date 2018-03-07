@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'my_report',
     'celery_test',
+    'django_celery_beat',
 ]
 
 MIDDLEWARE = [
@@ -86,14 +87,26 @@ WSGI_APPLICATION = 'my_report.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.oracle',
-        'NAME': 'devdb',
-        'USER': 'hysh',
-        'PASSWORD': 'hysh',
-        'HOST': '192.168.191.3',
-        'PORT': '1521',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'test_cmdb',
+        # 'NAME': 'hys_operation',
+        'USER': 'root',
+        'PASSWORD': '7ujm8ik,',
+        'HOST': '192.168.168.250',
+        'PORT': '3306',
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.oracle',
+#         'NAME': 'devdb',
+#         'USER': 'hysh',
+#         'PASSWORD': 'hysh',
+#         'HOST': '192.168.191.3',
+#         'PORT': '1521',
+#     }
+# }
 
 
 # Password validation

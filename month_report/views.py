@@ -76,6 +76,6 @@ def guo_report(request):
 
 
 def add_task_to_celery(request):
-    celery_send_email.delay(u'邮件主题', 'test_mail_message', 'lijianwei@mail.haoyisheng.com',
+    celery_send_email.delay(u'邮件主题', '哈哈哈', 'lijianwei@mail.haoyisheng.com',
                             ['lijianwei@mail.haoyisheng.com'])
     return HttpResponse('hello world')
